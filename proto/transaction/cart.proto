@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package transaction;
 
-option go_package = "https://github.com/ongjunrong/grpc-proto-demo/protogen/go/transaction";
+option go_package = "github.com/ongjunrong/grpc-proto-demo/protogen/go/transaction";
 
 message CartItem {
   string item_uuid = 1 [json_name = "item_id"];
