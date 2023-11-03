@@ -2,10 +2,11 @@ syntax = "proto3";
 
 package hello;
 
-option go_package = "https://github.com/ongjunrong/grpc-proto-demo/protogen/go/hello";
+option go_package = "github.com/ongjunrong/grpc-proto-demo/protogen/go/hello";
 
 message HelloRequest {
   string name = 1;
+  uint32 age = 16;
 }
 
 message HelloResponse {
